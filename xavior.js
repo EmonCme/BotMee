@@ -1241,7 +1241,7 @@ break
                     let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/CallMeEmon'
+                                    url: 'https://youtube.com/c/CallMeEmon'
                                 }
                                 }, {
                                 urlButton: {
@@ -1280,7 +1280,7 @@ break
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/CallMeEmon'
+                                    url: 'https://youtube.com/c/CallMeEmon'
                                 }
                                 }, {
                                 urlButton: {
@@ -3424,7 +3424,7 @@ anu = `
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/CallMeEmon'
+                                    url: 'https://youtube.com/c/CallMeEmon'
                                 }
                                 }, {
                                 urlButton: {
@@ -3479,7 +3479,7 @@ anu = `
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/CallMeEmon'
+                                    url: 'https://youtube.com/c/CallMeEmon'
                                 }
                                 }, {
                                 urlButton: {
@@ -3525,7 +3525,7 @@ anu = `
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/CallMeEmon'
+                                    url: 'https://youtube.com/c/CallMeEmon'
                                 }
                                 }, {
                                 urlButton: {
@@ -3590,7 +3590,7 @@ anu = `
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/CallMeEmon'
+                                    url: 'https://youtube.com/c/CallMeEmon'
                                 }
                                 }, {
                                 urlButton: {
@@ -3642,7 +3642,7 @@ anu = `
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/CallMeEmon'
+                                    url: 'https://youtube.com/c/CallMeEmon'
                                 }
                                 }, {
                                 urlButton: {
@@ -3701,7 +3701,7 @@ anu = `
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/CallMeEmon'
+                                    url: 'https://youtube.com/c/CallMeEmon'
                                 }
                                 }, {
                                 urlButton: {
@@ -3755,7 +3755,7 @@ anu = `
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/CallMeEmon'
+                                    url: 'https://youtube.com/c/CallMeEmon'
                                 }
                                 }, {
                                 urlButton: {
@@ -3811,7 +3811,7 @@ anu = `
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/CallMeEmon'
+                                    url: 'https://youtube.com/c/CallMeEmon'
                                 }
                                 }, {
                                 urlButton: {
@@ -3886,7 +3886,7 @@ anu = `
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/CallMeEmon'
+                                    url: 'https://youtube.com/c/CallMeEmon'
                                 }
                                 }, {
                                 urlButton: {
@@ -3942,7 +3942,7 @@ anu = `
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/CallMeEmon'
+                                    url: 'https://youtube.com/c/CallMeEmon'
                                 }
                                 }, {
                                 urlButton: {
@@ -3995,7 +3995,7 @@ anu = `
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/CallMeEmon'
+                                    url: 'https://youtube.com/c/CallMeEmon'
                                 }
                                 }, {
                                 urlButton: {
@@ -4053,7 +4053,7 @@ anu = `
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/CallMeEmon'
+                                    url: 'https://youtube.com/c/CallMeEmon'
                                 }
                                 }, {
                                 urlButton: {
@@ -4127,7 +4127,7 @@ anu = `
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/CallMeEmon'
+                                    url: 'https://youtube.com/c/CallMeEmon'
                                 }
                                 }, {
                                 urlButton: {
@@ -4189,7 +4189,7 @@ anu = `
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/CallMeEmon'
+                                    url: 'https://youtube.com/c/CallMeEmon'
                                 }
                                 }, {
                                 urlButton: {
@@ -4243,7 +4243,7 @@ anu = `
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/CallMeEmon'
+                                    url: 'https://youtube.com/c/CallMeEmon'
                                 }
                                 }, {
                                 urlButton: {
@@ -4295,7 +4295,7 @@ anu = `
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/CallMeEmon'
+                                    url: 'https://youtube.com/c/CallMeEmon'
                                 }
                                 }, {
                                 urlButton: {
@@ -4343,7 +4343,7 @@ anu = `
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/CallMeEmon'
+                                    url: 'https://youtube.com/c/CallMeEmon'
                                 }
                                 }, {
                                 urlButton: {
@@ -4392,7 +4392,7 @@ anu = `
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/CallMeEmon'
+                                    url: 'https://youtube.com/c/CallMeEmon'
                                 }
                                 }, {
                                 urlButton: {
@@ -4447,7 +4447,7 @@ anu = `
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/CallMeEmon'
+                                    url: 'https://youtube.com/c/CallMeEmon'
                                 }
                                 }, {
                                 urlButton: {
@@ -4490,7 +4490,7 @@ let btn = [{
                 let btn = [{
                                 urlButton: {
                                     displayText: 'YouTube',
-                                    url: 'https://youtube.com/channel/CallMeEmon'
+                                    url: 'https://youtube.com/c/CallMeEmon'
                                 }
                                 }, {
                                 urlButton: {
@@ -4538,7 +4538,7 @@ anu = `╭─❏ *『 DONASI 』*
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/CallMeEmon'
+                                    url: 'https://youtube.com/c/CallMeEmon'
                                 }
                                 }, {
                                 urlButton: {
@@ -4609,7 +4609,7 @@ Pembuatan Bot Ini`
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/CallMeEmon'
+                                    url: 'https://youtube.com/c/CallMeEmon'
                                 }
                                 }, {
                                 urlButton: {
@@ -4665,7 +4665,7 @@ Xaviorapikey, zenz`
 	let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/CallMeEmon'
+                                    url: 'https://youtube.com/c/CallMeEmon'
                                 }
                                 }, {
                                 urlButton: {
