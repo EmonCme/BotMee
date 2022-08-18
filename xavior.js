@@ -961,17 +961,17 @@ let teks = `══✪〘 *👥 Tag All* 〙✪══
 *Alasan:* ${vote[m.chat][0]}
 
 ┌〔 UPVOTE 〕
-│ 
+ 
 ├ Total: ${vote[m.chat][1].length}
-│
-│ 
+
+ 
 └────
 
 ┌〔 DEVOTE 〕
-│ 
+ 
 ├ Total: ${vote[m.chat][2].length}
-│
-│ 
+
+ 
 └────
 
 *${prefix}hapusvote* - untuk menghapus vote`
@@ -1002,17 +1002,17 @@ let buttonsVote = [
 *Alasan:* ${vote[m.chat][0]}
 
 ┌〔 UPVOTE 〕
-│ 
+ 
 ├ Total: ${vote[m.chat][1].length}
 ${vote[m.chat][1].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
-│ 
+ 
 └────
 
 ┌〔 DEVOTE 〕
-│ 
+ 
 ├ Total: ${vote[m.chat][2].length}
 ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
-│ 
+ 
 └────
 
 *${prefix}hapusvote* - untuk menghapus vote`
@@ -1044,17 +1044,17 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 *Alasan:* ${vote[m.chat][0]}
 
 ┌〔 UPVOTE 〕
-│ 
+ 
 ├ Total: ${vote[m.chat][1].length}
 ${vote[m.chat][1].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
-│ 
+ 
 └────
 
 ┌〔 DEVOTE 〕
-│ 
+ 
 ├ Total: ${vote[m.chat][2].length}
 ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
-│ 
+ 
 └────
 
 *${prefix}hapusvote* - untuk menghapus vote`
@@ -1082,17 +1082,17 @@ teks_vote = `*「 VOTE 」*
 *Alasan:* ${vote[m.chat][0]}
 
 ┌〔 UPVOTE 〕
-│ 
+ 
 ├ Total: ${upvote.length}
 ${vote[m.chat][1].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
-│ 
+ 
 └────
 
 ┌〔 DEVOTE 〕
-│ 
+ 
 ├ Total: ${devote.length}
 ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
-│ 
+ 
 └────
 
 *${prefix}hapusvote* - untuk menghapus vote
@@ -3229,198 +3229,198 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 
 case 'allmenu': {
 anu = `
-╭─❏ *『 OWNER MENU 』*
-│➪ ${prefix}sewa
-│➪ ${prefix}react [emoji]
-│➪ ${prefix}chat [option]
-│➪ ${prefix}join [link]
-│➪ ${prefix}leave
-│➪ ${prefix}block @user
-│➪ ${prefix}unblock @user
-│➪ ${prefix}bcgroup [text]
-│➪ ${prefix}bcall [text]
-│➪ ${prefix}setppbot [image]
-│➪ ${prefix}setexif
-│➪ ${prefix}setmenu [option]
-╰───────────────❏
-╭─❏ *『 GROUP MENU 』*
-│➪ ${prefix}linkgroup
-│➪ ${prefix}ephemeral [option]
-│➪ ${prefix}setppgc [image]
-│➪ ${prefix}setname [text]
-│➪ ${prefix}setdesc [text]
-│➪ ${prefix}group [option]
-│➪ ${prefix}editinfo [option]
-│➪ ${prefix}add @user
-│➪ ${prefix}kick @user
-│➪ ${prefix}hidetag [text]
-│➪ ${prefix}tagall [text]
-│➪ ${prefix}totag [reply]
-│➪ ${prefix}antilink [on/off]
-│➪ ${prefix}mute [on/off]
-│➪ ${prefix}promote @user
-│➪ ${prefix}demote @user
-│➪ ${prefix}vote [text]
-│➪ ${prefix}devote
-│➪ ${prefix}upvote
-│➪ ${prefix}cekvote
-│➪ ${prefix}hapusvote
-╰───────────────❏
-╭─❏ *『 WEBZONE MENU 』*
-│➪ ${prefix}playstore
-│➪ ${prefix}gsmarena
-│➪ ${prefix}jadwalbioskop
-│➪ ${prefix}nowplayingbioskop
-│➪ ${prefix}aminio
-│➪ ${prefix}wattpad
-│➪ ${prefix}webtoons
-│➪ ${prefix}drakor
-╰───────────────❏
-╭─❏ *『 DOWNLOADER MENU 』*
-│➪ ${prefix}tiktoknowm [url]
-│➪ ${prefix}tiktokwm [url]
-│➪ ${prefix}tiktokmp3 [url]
-│➪ ${prefix}instagram [url]
-│➪ ${prefix}twitter [url]
-│➪ ${prefix}twittermp3 [url]
-│➪ ${prefix}facebook [url]
-│➪ ${prefix}pinterestdl [url]
-│➪ ${prefix}ytmp3 [url]
-│➪ ${prefix}ytmp4 [url]
-│➪ ${prefix}getmusic [query]
-│➪ ${prefix}getvideo [query]
-│➪ ${prefix}umma [url]
-│➪ ${prefix}joox [query]
-│➪ ${prefix}soundcloud [url]
-╰───────────────❏
-╭─❏ *『 SEARCH MENU 』*
-│➪ ${prefix}play [query]
-│➪ ${prefix}yts [query]
-│➪ ${prefix}google [query]
-│➪ ${prefix}gimage [query]
-│➪ ${prefix}pinterest [query]
-│➪ ${prefix}wallpaper [query]
-│➪ ${prefix}wikimedia [query]
-│➪ ${prefix}ytsearch [query]
-│➪ ${prefix}ringtone [query]
-│➪ ${prefix}stalk [option] [query]
-╰───────────────❏
-╭─❏ *『 RANDOM MENU 』*
-│➪ ${prefix}quotesanime
-│➪ ${prefix}dilanquote
-│➪ ${prefix}bucinquote
-│➪ ${prefix}katasenja
-│➪ ${prefix}puisi
-│➪ ${prefix}couple
-│➪ ${prefix}anime
-│➪ ${prefix}waifu
-│➪ ${prefix}mikasa
-│➪ ${prefix}loli
-╰───────────────❏
-╭─❏ *『 PRIMBON MENU 』*
-│➪ ${prefix}nomorhoki
-│➪ ${prefix}artimimpi
-│➪ ${prefix}artinama
-│➪ ${prefix}ramaljodoh
-│➪ ${prefix}ramaljodohbali
-│➪ ${prefix}suamiistri
-│➪ ${prefix}ramalcinta
-│➪ ${prefix}cocoknama
-│➪ ${prefix}pasangan
-│➪ ${prefix}jadiannikah
-│➪ ${prefix}sifatusaha
-│➪ ${prefix}rezeki
-│➪ ${prefix}pekerjaan
-│➪ ${prefix}nasib
-│➪ ${prefix}penyakit
-│➪ ${prefix}tarot
-│➪ ${prefix}fengshui
-│➪ ${prefix}haribaik
-│➪ ${prefix}harisangar
-│➪ ${prefix}harisial
-│➪ ${prefix}nagahari
-│➪ ${prefix}arahrezeki
-│➪ ${prefix}peruntungan
-│➪ ${prefix}weton
-│➪ ${prefix}karakter
-│➪ ${prefix}keberuntungan
-│➪ ${prefix}memancing
-│➪ ${prefix}masasubur
-│➪ ${prefix}zodiak
-│➪ ${prefix}shio
-╰───────────────❏
-╭─❏ *『 CONVERT MENU 』*
-│➪ ${prefix}attp
-│➪ ${prefix}ttp
-│➪ ${prefix}toimage
-│➪ ${prefix}removebg
-│➪ ${prefix}sticker
-│➪ ${prefix}stickerwm
-│➪ ${prefix}emojimix
-│➪ ${prefix}emojimix2
-│➪ ${prefix}tovideo
-│➪ ${prefix}togif
-│➪ ${prefix}tourl
-│➪ ${prefix}tovn
-│➪ ${prefix}tomp3
-│➪ ${prefix}toaudio
-│➪ ${prefix}ebinary
-│➪ ${prefix}dbinary
-│➪ ${prefix}styletext
-│➪ ${prefix}smeme
-╰───────────────❏
-╭─❏ *『 MAIN MENU 』*
-│➪ ${prefix}ping
-│➪ ${prefix}owner
-│➪ ${prefix}menu / ${prefix}help / ${prefix}?
-│➪ ${prefix}delete
-│➪ ${prefix}infochat
-│➪ ${prefix}quoted
-│➪ ${prefix}listpc
-│➪ ${prefix}listgc
-│➪ ${prefix}listonline
-│➪ ${prefix}speedtest
-╰───────────────❏
-╭─❏ *『 DATABASE MENU 』*
-│➪ ${prefix}setcmd
-│➪ ${prefix}listcmd
-│➪ ${prefix}delcmd
-│➪ ${prefix}lockcmd
-│➪ ${prefix}addmsg
-│➪ ${prefix}listmsg
-│➪ ${prefix}getmsg
-│➪ ${prefix}delmsg
-╰───────────────❏
-╭─❏ *『 ANONYMOUS MENU 』*
-│➪ ${prefix}anonymous
-│➪ ${prefix}start
-│➪ ${prefix}next
-│➪ ${prefix}keluar
-╰───────────────❏
-╭─❏ *『 ISLAMIC MENU 』*
-│➪ ${prefix}iqra
-│➪ ${prefix}hadist
-│➪ ${prefix}alquran
-│➪ ${prefix}juzamma
-│➪ ${prefix}tafsirsurah
-╰───────────────❏
-╭─❏ *『 VOICE CHANGER MENU 』*
-│➪ ${prefix}bass
-│➪ ${prefix}blown
-│➪ ${prefix}deep
-│➪ ${prefix}earrape
-│➪ ${prefix}fast
-│➪ ${prefix}fat
-│➪ ${prefix}nightcore
-│➪ ${prefix}reverse
-│➪ ${prefix}robot
-│➪ ${prefix}slow
-│➪ ${prefix}tupai
-╰───────────────❏
-╭─❏ *『 GAME EMON DEV 』*
-│➪ ${prefix}psikopat1
-│➪ ${prefix}psikopat2
-╰───────────────❏`
+ *『 OWNER MENU 』*
+• ${prefix}sewa
+• ${prefix}react [emoji]
+• ${prefix}chat [option]
+• ${prefix}join [link]
+• ${prefix}leave
+• ${prefix}block @user
+• ${prefix}unblock @user
+• ${prefix}bcgroup [text]
+• ${prefix}bcall [text]
+• ${prefix}setppbot [image]
+• ${prefix}setexif
+• ${prefix}setmenu [option]
+
+ *『 GROUP MENU 』*
+• ${prefix}linkgroup
+• ${prefix}ephemeral [option]
+• ${prefix}setppgc [image]
+• ${prefix}setname [text]
+• ${prefix}setdesc [text]
+• ${prefix}group [option]
+• ${prefix}editinfo [option]
+• ${prefix}add @user
+• ${prefix}kick @user
+• ${prefix}hidetag [text]
+• ${prefix}tagall [text]
+• ${prefix}totag [reply]
+• ${prefix}antilink [on/off]
+• ${prefix}mute [on/off]
+• ${prefix}promote @user
+• ${prefix}demote @user
+• ${prefix}vote [text]
+• ${prefix}devote
+• ${prefix}upvote
+• ${prefix}cekvote
+• ${prefix}hapusvote
+
+ *『 WEBZONE MENU 』*
+• ${prefix}playstore
+• ${prefix}gsmarena
+• ${prefix}jadwalbioskop
+• ${prefix}nowplayingbioskop
+• ${prefix}aminio
+• ${prefix}wattpad
+• ${prefix}webtoons
+• ${prefix}drakor
+
+ *『 DOWNLOADER MENU 』*
+• ${prefix}tiktoknowm [url]
+• ${prefix}tiktokwm [url]
+• ${prefix}tiktokmp3 [url]
+• ${prefix}instagram [url]
+• ${prefix}twitter [url]
+• ${prefix}twittermp3 [url]
+• ${prefix}facebook [url]
+• ${prefix}pinterestdl [url]
+• ${prefix}ytmp3 [url]
+• ${prefix}ytmp4 [url]
+• ${prefix}getmusic [query]
+• ${prefix}getvideo [query]
+• ${prefix}umma [url]
+• ${prefix}joox [query]
+• ${prefix}soundcloud [url]
+
+ *『 SEARCH MENU 』*
+• ${prefix}play [query]
+• ${prefix}yts [query]
+• ${prefix}google [query]
+• ${prefix}gimage [query]
+• ${prefix}pinterest [query]
+• ${prefix}wallpaper [query]
+• ${prefix}wikimedia [query]
+• ${prefix}ytsearch [query]
+• ${prefix}ringtone [query]
+• ${prefix}stalk [option] [query]
+
+ *『 RANDOM MENU 』*
+• ${prefix}quotesanime
+• ${prefix}dilanquote
+• ${prefix}bucinquote
+• ${prefix}katasenja
+• ${prefix}puisi
+• ${prefix}couple
+• ${prefix}anime
+• ${prefix}waifu
+• ${prefix}mikasa
+• ${prefix}loli
+
+ *『 PRIMBON MENU 』*
+• ${prefix}nomorhoki
+• ${prefix}artimimpi
+• ${prefix}artinama
+• ${prefix}ramaljodoh
+• ${prefix}ramaljodohbali
+• ${prefix}suamiistri
+• ${prefix}ramalcinta
+• ${prefix}cocoknama
+• ${prefix}pasangan
+• ${prefix}jadiannikah
+• ${prefix}sifatusaha
+• ${prefix}rezeki
+• ${prefix}pekerjaan
+• ${prefix}nasib
+• ${prefix}penyakit
+• ${prefix}tarot
+• ${prefix}fengshui
+• ${prefix}haribaik
+• ${prefix}harisangar
+• ${prefix}harisial
+• ${prefix}nagahari
+• ${prefix}arahrezeki
+• ${prefix}peruntungan
+• ${prefix}weton
+• ${prefix}karakter
+• ${prefix}keberuntungan
+• ${prefix}memancing
+• ${prefix}masasubur
+• ${prefix}zodiak
+• ${prefix}shio
+
+ *『 CONVERT MENU 』*
+• ${prefix}attp
+• ${prefix}ttp
+• ${prefix}toimage
+• ${prefix}removebg
+• ${prefix}sticker
+• ${prefix}stickerwm
+• ${prefix}emojimix
+• ${prefix}emojimix2
+• ${prefix}tovideo
+• ${prefix}togif
+• ${prefix}tourl
+• ${prefix}tovn
+• ${prefix}tomp3
+• ${prefix}toaudio
+• ${prefix}ebinary
+• ${prefix}dbinary
+• ${prefix}styletext
+• ${prefix}smeme
+
+ *『 MAIN MENU 』*
+• ${prefix}ping
+• ${prefix}owner
+• ${prefix}menu / ${prefix}help / ${prefix}?
+• ${prefix}delete
+• ${prefix}infochat
+• ${prefix}quoted
+• ${prefix}listpc
+• ${prefix}listgc
+• ${prefix}listonline
+• ${prefix}speedtest
+
+ *『 DATABASE MENU 』*
+• ${prefix}setcmd
+• ${prefix}listcmd
+• ${prefix}delcmd
+• ${prefix}lockcmd
+• ${prefix}addmsg
+• ${prefix}listmsg
+• ${prefix}getmsg
+• ${prefix}delmsg
+
+ *『 ANONYMOUS MENU 』*
+• ${prefix}anonymous
+• ${prefix}start
+• ${prefix}next
+• ${prefix}keluar
+
+ *『 ISLAMIC MENU 』*
+• ${prefix}iqra
+• ${prefix}hadist
+• ${prefix}alquran
+• ${prefix}juzamma
+• ${prefix}tafsirsurah
+
+ *『 VOICE CHANGER MENU 』*
+• ${prefix}bass
+• ${prefix}blown
+• ${prefix}deep
+• ${prefix}earrape
+• ${prefix}fast
+• ${prefix}fat
+• ${prefix}nightcore
+• ${prefix}reverse
+• ${prefix}robot
+• ${prefix}slow
+• ${prefix}tupai
+
+ *『 GAME EMON DEV 』*
+• ${prefix}psikopat1
+• ${prefix}psikopat2
+`
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
@@ -3463,19 +3463,19 @@ let btn = [{
             break
 case 'ownermenu': {
 anu = `
-│➪ ${prefix}sewa
-│➪ ${prefix}react [emoji]
-│➪ ${prefix}chat [option]
-│➪ ${prefix}join [link]
-│➪ ${prefix}leave
-│➪ ${prefix}block @user
-│➪ ${prefix}unblock @user
-│➪ ${prefix}bcgroup [text]
-│➪ ${prefix}bcall [text]
-│➪ ${prefix}setppbot [image]
-│➪ ${prefix}setexif
-│➪ ${prefix}setmenu [option]
-╰───────────────❏`
+• ${prefix}sewa
+• ${prefix}react [emoji]
+• ${prefix}chat [option]
+• ${prefix}join [link]
+• ${prefix}leave
+• ${prefix}block @user
+• ${prefix}unblock @user
+• ${prefix}bcgroup [text]
+• ${prefix}bcall [text]
+• ${prefix}setppbot [image]
+• ${prefix}setexif
+• ${prefix}setmenu [option]
+`
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
@@ -3518,10 +3518,10 @@ let btn = [{
             break 
 case 'menugame': {
 anu = `
-╭─❏ *『 GAME XAVIOR DEV』*
-│➪ ${prefix}psikopat1
-│➪ ${prefix}psikopat2
-╰───────────────❏`
+ *『 GAME XAVIOR DEV』*
+• ${prefix}psikopat1
+• ${prefix}psikopat2
+`
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
@@ -3564,29 +3564,29 @@ let btn = [{
             break
 case 'groupmenu': {
 anu = `
-╭─❏ *『 GROUP MENU 』*
-│➪ ${prefix}linkgroup
-│➪ ${prefix}ephemeral [option]
-│➪ ${prefix}setppgc [image]
-│➪ ${prefix}setname [text]
-│➪ ${prefix}setdesc [text]
-│➪ ${prefix}group [option]
-│➪ ${prefix}editinfo [option]
-│➪ ${prefix}add @user
-│➪ ${prefix}kick @user
-│➪ ${prefix}hidetag [text]
-│➪ ${prefix}tagall [text]
-│➪ ${prefix}totag [reply]
-│➪ ${prefix}antilink [on/off]
-│➪ ${prefix}mute [on/off]
-│➪ ${prefix}promote @user
-│➪ ${prefix}demote @user
-│➪ ${prefix}vote [text]
-│➪ ${prefix}devote
-│➪ ${prefix}upvote
-│➪ ${prefix}cekvote
-│➪ ${prefix}hapusvote
-╰───────────────❏`
+ *『 GROUP MENU 』*
+• ${prefix}linkgroup
+• ${prefix}ephemeral [option]
+• ${prefix}setppgc [image]
+• ${prefix}setname [text]
+• ${prefix}setdesc [text]
+• ${prefix}group [option]
+• ${prefix}editinfo [option]
+• ${prefix}add @user
+• ${prefix}kick @user
+• ${prefix}hidetag [text]
+• ${prefix}tagall [text]
+• ${prefix}totag [reply]
+• ${prefix}antilink [on/off]
+• ${prefix}mute [on/off]
+• ${prefix}promote @user
+• ${prefix}demote @user
+• ${prefix}vote [text]
+• ${prefix}devote
+• ${prefix}upvote
+• ${prefix}cekvote
+• ${prefix}hapusvote
+`
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
@@ -3629,16 +3629,16 @@ let btn = [{
             break
 case 'webzonemenu': {
 anu = `
-╭─❏ *『 WEBZONE MENU 』*
-│➪ ${prefix}playstore
-│➪ ${prefix}gsmarena
-│➪ ${prefix}jadwalbioskop
-│➪ ${prefix}nowplayingbioskop
-│➪ ${prefix}aminio
-│➪ ${prefix}wattpad
-│➪ ${prefix}webtoons
-│➪ ${prefix}drakor
-╰───────────────❏`
+ *『 WEBZONE MENU 』*
+• ${prefix}playstore
+• ${prefix}gsmarena
+• ${prefix}jadwalbioskop
+• ${prefix}nowplayingbioskop
+• ${prefix}aminio
+• ${prefix}wattpad
+• ${prefix}webtoons
+• ${prefix}drakor
+`
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
@@ -3681,23 +3681,23 @@ let btn = [{
             break
 case 'downloadermenu': {
 anu = `
-╭─❏ *『 DOWNLOADER MENU 』*
-│➪ ${prefix}tiktoknowm [url]
-│➪ ${prefix}tiktokwm [url]
-│➪ ${prefix}tiktokmp3 [url]
-│➪ ${prefix}instagram [url]
-│➪ ${prefix}twitter [url]
-│➪ ${prefix}twittermp3 [url]
-│➪ ${prefix}facebook [url]
-│➪ ${prefix}pinterestdl [url]
-│➪ ${prefix}ytmp3 [url]
-│➪ ${prefix}ytmp4 [url]
-│➪ ${prefix}getmusic [query]
-│➪ ${prefix}getvideo [query]
-│➪ ${prefix}umma [url]
-│➪ ${prefix}joox [query]
-│➪ ${prefix}soundcloud [url]
-╰───────────────❏`
+ *『 DOWNLOADER MENU 』*
+• ${prefix}tiktoknowm [url]
+• ${prefix}tiktokwm [url]
+• ${prefix}tiktokmp3 [url]
+• ${prefix}instagram [url]
+• ${prefix}twitter [url]
+• ${prefix}twittermp3 [url]
+• ${prefix}facebook [url]
+• ${prefix}pinterestdl [url]
+• ${prefix}ytmp3 [url]
+• ${prefix}ytmp4 [url]
+• ${prefix}getmusic [query]
+• ${prefix}getvideo [query]
+• ${prefix}umma [url]
+• ${prefix}joox [query]
+• ${prefix}soundcloud [url]
+`
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
@@ -3740,18 +3740,18 @@ let btn = [{
             break
 case 'searchmenu': {
 anu = `
-╭─❏ *『 SEARCH MENU 』*
-│➪ ${prefix}play [query]
-│➪ ${prefix}yts [query]
-│➪ ${prefix}google [query]
-│➪ ${prefix}gimage [query]
-│➪ ${prefix}pinterest [query]
-│➪ ${prefix}wallpaper [query]
-│➪ ${prefix}wikimedia [query]
-│➪ ${prefix}ytsearch [query]
-│➪ ${prefix}ringtone [query]
-│➪ ${prefix}stalk [option] [query]
-╰───────────────❏`
+ *『 SEARCH MENU 』*
+• ${prefix}play [query]
+• ${prefix}yts [query]
+• ${prefix}google [query]
+• ${prefix}gimage [query]
+• ${prefix}pinterest [query]
+• ${prefix}wallpaper [query]
+• ${prefix}wikimedia [query]
+• ${prefix}ytsearch [query]
+• ${prefix}ringtone [query]
+• ${prefix}stalk [option] [query]
+`
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
@@ -3794,20 +3794,20 @@ let btn = [{
             break
 case 'randommenu': {
 anu = `
-╭─❏ *『 RANDOM MENU 』*
-│➪ ${prefix}coffe
-│➪ ${prefix}quotesanime
-│➪ ${prefix}motivasi
-│➪ ${prefix}dilanquote
-│➪ ${prefix}bucinquote
-│➪ ${prefix}katasenja
-│➪ ${prefix}puisi
-│➪ ${prefix}couple
-│➪ ${prefix}anime
-│➪ ${prefix}waifu
-│➪ ${prefix}mikasa
-│➪ ${prefix}loli
-╰───────────────❏`
+ *『 RANDOM MENU 』*
+• ${prefix}coffe
+• ${prefix}quotesanime
+• ${prefix}motivasi
+• ${prefix}dilanquote
+• ${prefix}bucinquote
+• ${prefix}katasenja
+• ${prefix}puisi
+• ${prefix}couple
+• ${prefix}anime
+• ${prefix}waifu
+• ${prefix}mikasa
+• ${prefix}loli
+`
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
@@ -3850,39 +3850,39 @@ let btn = [{
             break
  case 'textpromenu': {
 anu = `
-╭─❏ *『 TEXT PRO MENU 』*
-│➪ ${prefix}3dchristmas
-│➪ ${prefix}3ddeepsea
-│➪ ${prefix}americanflag
-│➪ ${prefix}3dscifi
-│➪ ${prefix}3drainbow
-│➪ ${prefix}3dwaterpipe
-│➪ ${prefix}halloweenskeleton
-│➪ ${prefix}sketch
-│➪ ${prefix}bluecircuit
-│➪ ${prefix}space
-│➪ ${prefix}metallic
-│➪ ${prefix}fiction
-│➪ ${prefix}greenhorror
-│➪ ${prefix}transformer
-│➪ ${prefix}berry
-│➪ ${prefix}thunder
-│➪ ${prefix}magma
-│➪ ${prefix}3dcrackedstone
-│➪ ${prefix}3dneonlight
-│➪ ${prefix}impressiveglitch
-│➪ ${prefix}naturalleaves
-│➪ ${prefix}fireworksparkle
-│➪ ${prefix}matrix
-│➪ ${prefix}dropwater
-│➪ ${prefix}harrypotter
-│➪ ${prefix}foggywindow
-│➪ ${prefix}neondevils
-│➪ ${prefix}christmasholiday
-│➪ ${prefix}3dgradient
-│➪ ${prefix}blackpink
-│➪ ${prefix}gluetext
-╰───────────────❏`
+ *『 TEXT PRO MENU 』*
+• ${prefix}3dchristmas
+• ${prefix}3ddeepsea
+• ${prefix}americanflag
+• ${prefix}3dscifi
+• ${prefix}3drainbow
+• ${prefix}3dwaterpipe
+• ${prefix}halloweenskeleton
+• ${prefix}sketch
+• ${prefix}bluecircuit
+• ${prefix}space
+• ${prefix}metallic
+• ${prefix}fiction
+• ${prefix}greenhorror
+• ${prefix}transformer
+• ${prefix}berry
+• ${prefix}thunder
+• ${prefix}magma
+• ${prefix}3dcrackedstone
+• ${prefix}3dneonlight
+• ${prefix}impressiveglitch
+• ${prefix}naturalleaves
+• ${prefix}fireworksparkle
+• ${prefix}matrix
+• ${prefix}dropwater
+• ${prefix}harrypotter
+• ${prefix}foggywindow
+• ${prefix}neondevils
+• ${prefix}christmasholiday
+• ${prefix}3dgradient
+• ${prefix}blackpink
+• ${prefix}gluetext
+`
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
@@ -3925,20 +3925,20 @@ let btn = [{
             break
 case 'photooxymenu': {
 anu = `
-╭─❏ *『 PHOTO OXY MENU 』*
-│➪ ${prefix}shadow
-│➪ ${prefix}romantic
-│➪ ${prefix}smoke
-│➪ ${prefix}burnpapper
-│➪ ${prefix}naruto
-│➪ ${prefix}lovemsg
-│➪ ${prefix}grassmsg
-│➪ ${prefix}lovetext
-│➪ ${prefix}coffecup
-│➪ ${prefix}butterfly
-│➪ ${prefix}harrypotter
-│➪ ${prefix}retrolol
-╰───────────────❏`
+ *『 PHOTO OXY MENU 』*
+• ${prefix}shadow
+• ${prefix}romantic
+• ${prefix}smoke
+• ${prefix}burnpapper
+• ${prefix}naruto
+• ${prefix}lovemsg
+• ${prefix}grassmsg
+• ${prefix}lovetext
+• ${prefix}coffecup
+• ${prefix}butterfly
+• ${prefix}harrypotter
+• ${prefix}retrolol
+`
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
@@ -3981,17 +3981,17 @@ let btn = [{
             break
 case 'ephotomenu': {
 anu = `
-╭─❏ *『 EPHOTO MENU 』*
-│➪ ${prefix}ffcover
-│➪ ${prefix}crossfire
-│➪ ${prefix}galaxy
-│➪ ${prefix}glass
-│➪ ${prefix}neon
-│➪ ${prefix}beach
-│➪ ${prefix}blackpink
-│➪ ${prefix}igcertificate
-│➪ ${prefix}ytcertificate
-╰───────────────❏`
+ *『 EPHOTO MENU 』*
+• ${prefix}ffcover
+• ${prefix}crossfire
+• ${prefix}galaxy
+• ${prefix}glass
+• ${prefix}neon
+• ${prefix}beach
+• ${prefix}blackpink
+• ${prefix}igcertificate
+• ${prefix}ytcertificate
+`
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
@@ -4034,22 +4034,22 @@ let btn = [{
             break
 case 'funmenu': {
 anu = `
-╭─❏ *『 FUN MENU 』*
-│➪ ${prefix}simih
-│➪ ${prefix}halah
-│➪ ${prefix}hilih
-│➪ ${prefix}huluh
-│➪ ${prefix}heleh
-│➪ ${prefix}holoh
-│➪ ${prefix}jadian
-│➪ ${prefix}jodohku
-│➪ ${prefix}delttt
-│➪ ${prefix}tictactoe
-│➪ ${prefix}family100
-│➪ ${prefix}tebak [option]
-│➪ ${prefix}math [mode]
-│➪ ${prefix}suitpvp [@tag]
-╰───────────────❏`
+ *『 FUN MENU 』*
+• ${prefix}simih
+• ${prefix}halah
+• ${prefix}hilih
+• ${prefix}huluh
+• ${prefix}heleh
+• ${prefix}holoh
+• ${prefix}jadian
+• ${prefix}jodohku
+• ${prefix}delttt
+• ${prefix}tictactoe
+• ${prefix}family100
+• ${prefix}tebak [option]
+• ${prefix}math [mode]
+• ${prefix}suitpvp [@tag]
+`
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
@@ -4092,38 +4092,38 @@ let btn = [{
             break
 case 'primbonmenu': {
 anu = `
-╭─❏ *『 PRIMBON MENU 』*
-│➪ ${prefix}nomorhoki
-│➪ ${prefix}artimimpi
-│➪ ${prefix}artinama
-│➪ ${prefix}ramaljodoh
-│➪ ${prefix}ramaljodohbali
-│➪ ${prefix}suamiistri
-│➪ ${prefix}ramalcinta
-│➪ ${prefix}cocoknama
-│➪ ${prefix}pasangan
-│➪ ${prefix}jadiannikah
-│➪ ${prefix}sifatusaha
-│➪ ${prefix}rezeki
-│➪ ${prefix}pekerjaan
-│➪ ${prefix}nasib
-│➪ ${prefix}penyakit
-│➪ ${prefix}tarot
-│➪ ${prefix}fengshui
-│➪ ${prefix}haribaik
-│➪ ${prefix}harisangar
-│➪ ${prefix}harisial
-│➪ ${prefix}nagahari
-│➪ ${prefix}arahrezeki
-│➪ ${prefix}peruntungan
-│➪ ${prefix}weton
-│➪ ${prefix}karakter
-│➪ ${prefix}keberuntungan
-│➪ ${prefix}memancing
-│➪ ${prefix}masasubur
-│➪ ${prefix}zodiak
-│➪ ${prefix}shio
-╰───────────────❏`
+ *『 PRIMBON MENU 』*
+• ${prefix}nomorhoki
+• ${prefix}artimimpi
+• ${prefix}artinama
+• ${prefix}ramaljodoh
+• ${prefix}ramaljodohbali
+• ${prefix}suamiistri
+• ${prefix}ramalcinta
+• ${prefix}cocoknama
+• ${prefix}pasangan
+• ${prefix}jadiannikah
+• ${prefix}sifatusaha
+• ${prefix}rezeki
+• ${prefix}pekerjaan
+• ${prefix}nasib
+• ${prefix}penyakit
+• ${prefix}tarot
+• ${prefix}fengshui
+• ${prefix}haribaik
+• ${prefix}harisangar
+• ${prefix}harisial
+• ${prefix}nagahari
+• ${prefix}arahrezeki
+• ${prefix}peruntungan
+• ${prefix}weton
+• ${prefix}karakter
+• ${prefix}keberuntungan
+• ${prefix}memancing
+• ${prefix}masasubur
+• ${prefix}zodiak
+• ${prefix}shio
+`
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
@@ -4166,26 +4166,26 @@ let btn = [{
             break
 case 'convertmenu': {
 anu = `
-╭─❏ *『 CONVERT MENU 』*
-│➪ ${prefix}attp
-│➪ ${prefix}ttp
-│➪ ${prefix}toimage
-│➪ ${prefix}removebg
-│➪ ${prefix}sticker
-│➪ ${prefix}stickerwm
-│➪ ${prefix}emojimix
-│➪ ${prefix}emojimix2
-│➪ ${prefix}tovideo
-│➪ ${prefix}togif
-│➪ ${prefix}tourl
-│➪ ${prefix}tovn
-│➪ ${prefix}tomp3
-│➪ ${prefix}toaudio
-│➪ ${prefix}ebinary
-│➪ ${prefix}dbinary
-│➪ ${prefix}styletext
-│➪ ${prefix}smeme
-╰───────────────❏`
+ *『 CONVERT MENU 』*
+• ${prefix}attp
+• ${prefix}ttp
+• ${prefix}toimage
+• ${prefix}removebg
+• ${prefix}sticker
+• ${prefix}stickerwm
+• ${prefix}emojimix
+• ${prefix}emojimix2
+• ${prefix}tovideo
+• ${prefix}togif
+• ${prefix}tourl
+• ${prefix}tovn
+• ${prefix}tomp3
+• ${prefix}toaudio
+• ${prefix}ebinary
+• ${prefix}dbinary
+• ${prefix}styletext
+• ${prefix}smeme
+`
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
@@ -4228,18 +4228,18 @@ let btn = [{
             break
 case 'mainmenu': {
 anu = `
-╭─❏ *『 MAIN MENU 』*
-│➪ ${prefix}ping
-│➪ ${prefix}owner
-│➪ ${prefix}menu / ${prefix}help / ${prefix}?
-│➪ ${prefix}delete
-│➪ ${prefix}infochat
-│➪ ${prefix}quoted
-│➪ ${prefix}listpc
-│➪ ${prefix}listgc
-│➪ ${prefix}listonline
-│➪ ${prefix}speedtest
-╰───────────────❏`
+ *『 MAIN MENU 』*
+• ${prefix}ping
+• ${prefix}owner
+• ${prefix}menu / ${prefix}help / ${prefix}?
+• ${prefix}delete
+• ${prefix}infochat
+• ${prefix}quoted
+• ${prefix}listpc
+• ${prefix}listgc
+• ${prefix}listonline
+• ${prefix}speedtest
+`
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
@@ -4282,16 +4282,16 @@ let btn = [{
             break
 case 'databasemenu': {
 anu = `
-╭─❏ *『 DATABASE MENU 』*
-│➪ ${prefix}setcmd
-│➪ ${prefix}listcmd
-│➪ ${prefix}delcmd
-│➪ ${prefix}lockcmd
-│➪ ${prefix}addmsg
-│➪ ${prefix}listmsg
-│➪ ${prefix}getmsg
-│➪ ${prefix}delmsg
-╰───────────────❏`
+ *『 DATABASE MENU 』*
+• ${prefix}setcmd
+• ${prefix}listcmd
+• ${prefix}delcmd
+• ${prefix}lockcmd
+• ${prefix}addmsg
+• ${prefix}listmsg
+• ${prefix}getmsg
+• ${prefix}delmsg
+`
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
@@ -4334,12 +4334,12 @@ let btn = [{
             break
 case 'anonymousmenu': {
 anu = `
-╭─❏ *『 ANONYMOUS MENU 』*
-│➪ ${prefix}anonymous
-│➪ ${prefix}start
-│➪ ${prefix}next
-│➪ ${prefix}keluar
-╰───────────────❏`
+ *『 ANONYMOUS MENU 』*
+• ${prefix}anonymous
+• ${prefix}start
+• ${prefix}next
+• ${prefix}keluar
+`
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
@@ -4382,13 +4382,13 @@ let btn = [{
             break
 case 'islamicmenu': {
 anu = `
-╭─❏ *『 ISLAMIC MENU 』*
-│➪ ${prefix}iqra
-│➪ ${prefix}hadist
-│➪ ${prefix}alquran
-│➪ ${prefix}juzamma
-│➪ ${prefix}tafsirsurah
-╰───────────────❏`
+ *『 ISLAMIC MENU 』*
+• ${prefix}iqra
+• ${prefix}hadist
+• ${prefix}alquran
+• ${prefix}juzamma
+• ${prefix}tafsirsurah
+`
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
@@ -4431,19 +4431,19 @@ let btn = [{
             break
 case 'voicechangermenu': {
 anu = `
-╭─❏ *『 VOICE CHANGER MENU 』*
-│➪ ${prefix}bass
-│➪ ${prefix}blown
-│➪ ${prefix}deep
-│➪ ${prefix}earrape
-│➪ ${prefix}fast
-│➪ ${prefix}fat
-│➪ ${prefix}nightcore
-│➪ ${prefix}reverse
-│➪ ${prefix}robot
-│➪ ${prefix}slow
-│➪ ${prefix}tupai
-╰───────────────❏`
+ *『 VOICE CHANGER MENU 』*
+• ${prefix}bass
+• ${prefix}blown
+• ${prefix}deep
+• ${prefix}earrape
+• ${prefix}fast
+• ${prefix}fat
+• ${prefix}nightcore
+• ${prefix}reverse
+• ${prefix}robot
+• ${prefix}slow
+• ${prefix}tupai
+`
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
@@ -4529,10 +4529,11 @@ let btn = [{
             break
 
 case 'donasi': {
-anu = `╭─❏ *『 DONASI 』*
-│ ➪ Saweria : https://saweria.co/CallMeEmon
-│ ➪ Pulsa : 085799227173
-╰───────────────❏
+anu = ` *『 DONASI 』*
+ • Saweria : https://saweria.co/CallMeEmon
+ • Dana : 085799227173
+ • Pulsa : 085799227173
+
 
 *TERIMA KASIH BUAT YANG SUDAH MAU DONASI🤗*`
 let btn = [{
@@ -4646,6 +4647,7 @@ let btn = [{
                         }
                      }
             break
+
 // Kalau Mau Nambahin Gpp Tapi Jangan Diubah Ya Anj
 case 'contributor': {
 	anu = `*THANKS TO :*
