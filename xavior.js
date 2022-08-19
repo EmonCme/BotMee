@@ -4504,7 +4504,7 @@ let btn = [{
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Developer'
+                                    displayText: 'Pelukis Cerita',
                                     id: 'owner'
                                 }  
                             }, {
