@@ -31,7 +31,7 @@ apt update && apt upgrade
 apt install git -y
 apt install nodejs -y
 apt install ffmpeg -y
-git clone https://github.com/Xavior88/Xavior-MD.git
+git clone https://github.com/EmonCme/BotMee.git
 cd Xavior-MD
 npm install
 ```
@@ -52,12 +52,12 @@ $ node .
 WhatsApp bot is still in the development stage, so there are a few bugs
 WhatsApp Connection (BETA, not working perfectly)
 
-Editing Number Owner & session name in [`config.js`](https://github.com/Xavior88/Xavior-MD/blob/master/config.js)
+Editing Number Owner & session name in [`config.js`](https://github.com/EmonCme/BotMee/blob/master/config.js)
 Get Apikey zenz on [`zenz`](https://zenzapi.xyz/pricing)
 
 
 ## Donate
-* [`Saweria`](https://saweria.co/nanang13) 
+* [`Saweria`](https://saweria.co/CallMeEmon) 
 
 
 ## Thanks To
@@ -67,7 +67,7 @@ Get Apikey zenz on [`zenz`](https://zenzapi.xyz/pricing)
 * [`Mhankbarbar`](https://github.com/MhankBarBar)
 * [`Faiz`](https://github.com/FaizBastomi)
 * [`Gimenz`](https://github.com/Gimenz)
-* [`rayy`](https://github.com/rayyreall)
+* [`Emon`](https://github.com/EmonCme)
 * [`Fatih Arridho`](https://github.com/FatihArridho)
 * [`zhwzein`](https://github.com/zhwzein)
 * [`CAF-ID`](https://github.com/CAF-ID)
